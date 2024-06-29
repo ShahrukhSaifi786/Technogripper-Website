@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .slide {
+    animation: slide 8s linear infinite;
+  }
+ 
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-20%);
+    }
+  }
+}
