@@ -108,7 +108,7 @@ const Footer = () => {
                 </li>
               </Link>
               <Link
-                to={"ui-and-ux-design"}
+                to={"ui-ux"}
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <li className="mb-3 text-[15px] duration-200 relative before:content-[''] before:transition-all  before:absolute before:bottom-[-5px] before:left-0 before:w-0 before:h-[1px] before:bg-black  hover:before:w-[75%] cursor-pointer  ">

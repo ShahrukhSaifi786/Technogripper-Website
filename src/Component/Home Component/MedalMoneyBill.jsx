@@ -28,7 +28,7 @@ const categories = [
 
 const MedalMoneyBill = () => {
   return (
-    <section className="medal-money container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center xl:px-16 px-5 gap-x-5 mb-9 ">
+    <section className="medal-money container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center xl:px-16 px-3 gap-x-5 mb-9 ">
       {categories.map((item, index) => (
         <div className="py-3 px-5 md:px-3" key={index}>
           <div className="font-black text-5xl mb-3">{item.icon}</div>

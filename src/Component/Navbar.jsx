@@ -388,7 +388,7 @@ const Navbar = () => {
                 >
                   <div className="basis-[70%] px-4">
                     <h2 className="text-2xl font-semibold my-4">Innovate</h2>
-                    <div className="xl:px-5 px-2 grid grid-cols-3 xl:gap-x-6 gap-x-0 gap-y-5 group-1  mb-5">
+                    <div  className="xl:px-5 px-2 grid grid-cols-3 xl:gap-x-6 gap-x-0 gap-y-5 group-1  mb-5">
                       {headerData.map((item, index) =>
                         item.categories === "Innovative  Solution" ? (
                           <Link

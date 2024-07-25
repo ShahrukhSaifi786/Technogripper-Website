@@ -2,7 +2,7 @@ import React from "react";
 import CountUp from "react-countup";
 const CountUpComponent = () => {
   return (
-    <div className="max-w-[1350px] md:mx-auto bg-gradient-to-tl from-[hsl(216,31%,41%)] to-[#5c4545] mb-16 mx-5 rounded-2xl font-Instrument overflow-hidden">
+    <div className="max-w-[1350px] md:mx-auto bg-gradient-to-tl from-[hsl(216,31%,41%)] to-[#5c4545] mb-16 mx-3 rounded-2xl font-Instrument overflow-hidden">
       {/*  */}
       <div className="flex md:justify-between md:flex-row flex-col sm:p-9 p-5">
         <div className="md:basis-[50%] basis-full mb-5">
@@ -34,7 +34,7 @@ const CountUpComponent = () => {
         <div className="flex justify-between gap-4 ">
           <div className="border-l-2 ps-5">
             <h2 className="lg:text-5xl md:text-4xl text-2xl font-semibold text-white">
-              <CountUp start={1} end={9} duration={3} />{" "}
+              <CountUp start={1} end={9} duration={5} />{" "}
             </h2>
             <p className="mt-1 text-white text-xl font-semibold">
               Years experiences
@@ -42,7 +42,7 @@ const CountUpComponent = () => {
           </div>
           <div className="border-l-2 ps-5">
             <h2 className="lg:text-5xl md:text-4xl text-2xl font-semibold text-white">
-              <CountUp start={1} end={400} duration={3} />{" "} +
+              <CountUp start={1} end={400} duration={7} />{" "} +
             </h2>
             <p className="mt-1 text-white text-xl font-semibold">
             Happy customers
@@ -52,7 +52,7 @@ const CountUpComponent = () => {
         <div className="flex md:justify-center">
           <div className="border-l-2 ps-5">
             <h2 className="lg:text-5xl md:text-4xl text-2xl font-semibold text-white">
-              <CountUp start={1} end={650} duration={3} />{" "} +
+              <CountUp start={1} end={650} duration={7} />{" "} +
             </h2>
             <p className="mt-1 text-white text-xl font-semibold">
             Project completed

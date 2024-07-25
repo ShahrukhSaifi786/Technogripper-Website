@@ -3,7 +3,7 @@ import slider1 from "./image/slider1.png";
 import { Link } from "react-router-dom";
 const EnterpriseSolution = () => {
   return (
-    <div className="container mx-auto flex xl:justify-between xl:flex-row xl:px-16 px-5 flex-col py-14 font-Instrument">
+    <div className="container mx-auto flex xl:justify-between xl:flex-row xl:px-16 px-1 flex-col py-14 font-Instrument">
       <div className=" p-4 order-2 xl:order-1">
         <div>
           <p className="mb-4 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold">
@@ -14,12 +14,12 @@ const EnterpriseSolution = () => {
           Building custom solutions that drive efficiency and growth. Let's
           build something amazing together.
         </p>
-        <div>
+        <div >
           <Link
             to={"enterprise-solutions"}
             onClick={() => window.scrollTo(0, 0)}
           >
-            <button className=" px-7  py-3 bg-[#217b80] text-white rounded-lg transition-[background] font-semibold duration-200 hover:bg-[#0B4B4E]">
+            <button className=" px-7 mb-3  py-3 bg-[#217b80] text-white rounded-lg transition-[background] font-semibold duration-200 hover:bg-[#0B4B4E]">
               Explore More
             </button>
           </Link>
