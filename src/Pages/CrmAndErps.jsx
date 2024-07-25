@@ -11,6 +11,7 @@ import {
   PiGenderTransgenderThin,
   PiHandCoinsThin,
 } from "react-icons/pi";
+import crmsAndErps from './images/crms-&-erps.webp'
 import { GiCoinflip, GiCoins } from "react-icons/gi";
 import { Helmet } from "react-helmet";
 
@@ -129,7 +130,7 @@ const CrmAndErps = () => {
      <Helmet>
         <title>CRM & ERPS Services - TechnoGripper Solutions Private Limited</title>
       </Helmet>
-      <EnterpriseSolutionHeader headerData={headerData} />
+      <EnterpriseSolutionHeader headerData={headerData} imgSource={crmsAndErps}/>
       <EnterpriseSolutionServices
         serviceData={serviceData}
         heading={`Solutions, we've already worked on`}

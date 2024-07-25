@@ -5,7 +5,6 @@ import EnterpriseSolutionServices from "../Component/EnterpriseSolutionComponent
 import EnterpriseSolutionAbout from "../Component/EnterpriseSolutionComponent/EnterpriseSolutionAbout";
 import EnterpriseSolutionFAQ from "../Component/EnterpriseSolutionComponent/EnterpriseSolutionFAQ";
 import enterprise from "./images/enterprise-solutions-development.png";
-import telecommunication from './images/telecommunication.jpg'
 import { Helmet } from "react-helmet";
 
 import {
