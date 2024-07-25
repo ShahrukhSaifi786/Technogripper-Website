@@ -11,6 +11,7 @@ import {
   PiGenderTransgenderThin,
   PiHandCoinsThin,
 } from "react-icons/pi";
+import machineLearning from './images/machinelearning.webp'
 import { GiCoinflip, GiCoins } from "react-icons/gi";
 import { Helmet } from "react-helmet";
 
@@ -129,7 +130,7 @@ const MachineLearning = () => {
      <Helmet>
         <title>Machine Learning Services - TechnoGripper Solutions Private Limited</title>
       </Helmet>
-      <EnterpriseSolutionHeader headerData={headerData} />
+      <EnterpriseSolutionHeader headerData={headerData} imgSource={machineLearning}/>
       <EnterpriseSolutionServices
         serviceData={serviceData}
         heading={`Solutions, we've already worked on`}

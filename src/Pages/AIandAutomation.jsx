@@ -11,6 +11,7 @@ import {
   PiGenderTransgenderThin,
   PiHandCoinsThin,
 } from "react-icons/pi";
+import AiAutomation from './images/ai-automation.avif'
 import { GiCoinflip, GiCoins } from "react-icons/gi";
 import { Helmet } from "react-helmet";
 
@@ -129,7 +130,7 @@ const AIandAutomation = () => {
     <Helmet>
         <title>AI & Automation Services - TechnoGripper Solutions Private Limited</title>
       </Helmet>
-      <EnterpriseSolutionHeader headerData={headerData} />
+      <EnterpriseSolutionHeader headerData={headerData} imgSource={AiAutomation} />
       <EnterpriseSolutionServices
         serviceData={serviceData}
         heading={`Solutions, we've already worked on`}

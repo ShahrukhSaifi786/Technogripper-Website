@@ -11,6 +11,7 @@ import {
   PiGenderTransgenderThin,
   PiHandCoinsThin,
 } from "react-icons/pi";
+import itConsulting from './images/itConsulting.avif'
 import { GiCoinflip, GiCoins } from "react-icons/gi";
 import { Helmet } from "react-helmet";
 
@@ -129,7 +130,7 @@ const ItConsulting = () => {
      <Helmet>
         <title>IT Consulting Services - TechnoGripper Solutions Private Limited</title>
       </Helmet>
-      <EnterpriseSolutionHeader headerData={headerData} />
+      <EnterpriseSolutionHeader headerData={headerData} imgSource={itConsulting}/>
       <EnterpriseSolutionServices
         serviceData={serviceData}
         heading={`Solutions, we've already worked on`}

@@ -11,6 +11,7 @@ import {
   PiGenderTransgenderThin,
   PiHandCoinsThin,
 } from "react-icons/pi";
+import ExtendReality from './images/data-analytics.avif'
 import { GiCoinflip, GiCoins } from "react-icons/gi";
 import { Helmet } from "react-helmet";
 
@@ -129,7 +130,7 @@ const DataAnalytics = () => {
      <Helmet>
         <title>Data Analytics Services - TechnoGripper Solutions Private Limited</title>
       </Helmet>
-      <EnterpriseSolutionHeader headerData={headerData} />
+      <EnterpriseSolutionHeader headerData={headerData} imgSource={ExtendReality}/>
       <EnterpriseSolutionServices
         serviceData={serviceData}
         heading={`Solutions, we've already worked on`}
